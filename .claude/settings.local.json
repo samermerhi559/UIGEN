@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm audit *)",
+      "Bash(npm list *)",
+      "Bash(npm show *)",
+      "Bash(node -e \"const v=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\)\\); const recent=v.filter\\(x=>x.startsWith\\('5.'\\)||x.startsWith\\('6.'\\)||x.startsWith\\('4.'\\)\\).slice\\(-20\\); console.log\\(recent.join\\('\\\\n'\\)\\)\")",
+      "Bash(npm install *)",
+      "mcp__playwright__browser_take_screenshot"
+    ]
+  }
+}
